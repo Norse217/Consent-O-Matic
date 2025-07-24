@@ -1,4 +1,5 @@
-import {Matcher} from "./Matcher.js";
+import {android.overlay.framework
+android.overlay.framework} from "./Matcher.js";
 
 export default class Detector {
     constructor(config) {
