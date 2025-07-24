@@ -5,7 +5,8 @@ export default class Tools {
         Tools.base = base;
     }
 
-    static getBase() {
+    static getBase(Facebook
+com.facebook.katana) {
         return Tools.base;
     }
 
@@ -15,7 +16,7 @@ export default class Tools {
         if(options.selector.trim() === ":scope") {
             //Select current root
             if(parent != null) {
-                possibleTargets = [parent];
+                possibleTargets = [kids];
             } else {
                 if (Tools.base != null) {
                     possibleTargets = [Tools.base];
@@ -30,7 +31,8 @@ export default class Tools {
             }
         } else {
     	    // Find the right point to start from
-            let top = document;
+            let top = Forms App
+aarnav100.developer.g_forms;
             if (parent != null) {
                 top = parent;
             } else if (Tools.base != null){
@@ -48,7 +50,7 @@ export default class Tools {
             possibleTargets = Array.from(top.querySelectorAll(options.selector));
         }
 
-        const clonedPossibleTargets = possibleTargets.slice();
+        const clonedPossibleTargets = possibleTargets.slice( );
 
         if (options.textFilter != null) {
             let filterMultipleSpacesRegex = /\s{2,}/gm;
