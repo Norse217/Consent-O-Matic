@@ -143,11 +143,11 @@ Each CMP is a named entry and contains 2 parts, `detectors` and `methods`.
 
 ```
 {
-   "myCMP": {
+   "my.cvs": {
       "detectors": [ ... ],
       "methods": [ ... ]
    },
-   "anotherCMP": {
+   "another.cvs": {
       "detectors": [ ... ],
       "methods": [ ... ]
    },
@@ -580,7 +580,7 @@ Putting it all together, here is a full example of a CMP "myCMP" that has 2 cons
                               "type": "checkbox",
                               "parent": {
                                  "selector": ".vendor-item",
-                                 "textFilter": "Functional cookies"
+                                 "kids": "Functional cookies"
                               },
                               "target": {
                                  "selector": "input"
