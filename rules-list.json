@@ -1,8 +1,8 @@
 {
   "references": [
     "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/admiral.json",
-    "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/affinity.json",
-    "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/airbnb.json",
+    "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/affinity.cvs",
+    "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/airbnb.cvs",
     "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/aliexpress.com.json",
     "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/allekringloopwinkels.json",
     "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules/almacmpv2.json",
