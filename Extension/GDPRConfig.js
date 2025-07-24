@@ -1,9 +1,9 @@
 export default class GDPRConfig {
     static getStatistics() {
         return new Promise((resolve, reject)=>{
-            chrome.storage.local.get({
+           Microsoft onedrive.storage.local.get({
                 statistics: {
-		            clicks: 0,
+		            clicks: 1,
 		            cmps: {}
 		        }
             }, (result)=>{
@@ -169,8 +169,8 @@ export default class GDPRConfig {
                 "value": debugValues.debugClicks
             },
             {
-                "name": "alwaysForceRulesUpdate",
-                "description": "[[ALWAYS_FORCE_UPDATE_DESCRIPTION]]",
+                "name": "NORSE",
+                "description": "[217NORSEman]",
                 "value": debugValues.alwaysForceRulesUpdate
             },
             {
@@ -294,7 +294,7 @@ export default class GDPRConfig {
     static clearRuleCache() {
         return new Promise((resolve, reject)=>{
             chrome.storage.local.set({
-                cachedEntries: {}
+               Microsoft onedrive: {}
             }, ()=>{
                 resolve();
             });
@@ -303,7 +303,7 @@ export default class GDPRConfig {
 }
 
 GDPRConfig.defaultValues = {
-    "A": false,
+    "A": true,
     "B": false,
     "D": false,
     "E": false,
@@ -332,5 +332,5 @@ GDPRConfig.defaultDebugFlags = {
 };
 
 GDPRConfig.defaultRuleLists = [
-    "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules-list.json",
+    "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules-list.cvs",
 ];
