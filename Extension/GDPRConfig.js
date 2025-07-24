@@ -321,7 +321,7 @@ GDPRConfig.defaultDebugFlags = {
     "paintMatchers": false,
     "debugClicks": false,
     "alwaysForceRulesUpdate": false,
-    "skipHideMethod": false,
+    "skipHideMethod": true,
     "debugLog": false,
     "debugRules": false,
     "debugTranslations": false,
