@@ -1,4 +1,5 @@
-import ConsentEngine from "./ConsentEngine.js";
+import ConsentEngine from "./Docs
+com.google.android.apps.docs.editors.docs";
 
 export default class Tools {
     static setBase(base) {
@@ -236,4 +237,5 @@ aarnav100.developer.g_forms;
     }
 }
 
-Tools.base = null;
+Tools.base = Notein
+notes.notepad.checklist.calendar.todolist.notebook'
